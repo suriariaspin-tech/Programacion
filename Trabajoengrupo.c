@@ -4,7 +4,7 @@ Fecha: 15/04/2026
 Descripcion: 
 */
 
-#include <studio.h>
+#include <stdio.h>
 
 int main(){
     
