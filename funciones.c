@@ -128,10 +128,10 @@ void ValidarTexto(char texto[], int tamaño) {
 
 // función para validar que el texto ingresado no contenga caracteres no permitidos (solo letras, números y espacios)
 int TextoValido(char texto[]) {
-    for (int i = 0; texto[i] != '\0'; i++) {
-        if (!isalpha(texto[i]) && !isspace(texto[i])) {
-            return 0;
+    for (int i = 0; texto[i] != '\0'; i++) { // BUCLE para verificar cada caracter del texto y validar que solo contenga letras, números y espacios
+        if (!isalpha(texto[i]) && !isspace(texto[i])) { // Si el caracter no es una letra ni un espacio, se considera inválido
+            return 0; // Si el texto contiene caracteres no permitidos, se retorna 0
         }
     }
-    return 1;
+    return 1; // Si el texto es válido, se retorna 1
 }
