@@ -115,7 +115,7 @@ int main() {
                 break;
 
             default:
-                printf("Opción no válida. Por favor, seleccione una opción válida.\n");
+                printf("Opcion no valida. Por favor, seleccione una opcion valida.\n");
         }
     } while (opcion != 4);
 
