@@ -104,9 +104,9 @@ void ValidarCantidad(int *cantidad) {
         LimpiarBuffer(); // Limpiar el buffer de entrada
     }
 }
-// función para validar que el precio ingresado sea un número flotante y positivo para precio
+// función para validar que el precio ingresado sea un número real y positivo para precio
 void ValidarPrecio(float *precio) {
-    while (scanf("%f", precio) != 1 || *precio < 0) { // BUCLE para validar que el precio sea un número flotante y positivo
+    while (scanf("%f", precio) != 1 || *precio < 0) { // BUCLE para validar que el precio sea un número real y positivo
         printf("Valor invalido, no puede ingresar numeros negativos: ");
         LimpiarBuffer(); // Limpiar el buffer de entrada
     }
