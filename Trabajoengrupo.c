@@ -4,8 +4,8 @@ Fecha: 15/04/2026
 Descripcion: Este programa permite ingresar datos de tres sucursales, incluyendo el nombre de la sucursal, el número de productos, 
 el nombre de cada producto, la cantidad disponible y el precio de cada producto. Luego, el programa calcula y muestra el precio total 
 del inventario en cada sucursal, el precio promedio de los productos en cada sucursal, el producto más caro y más barato en cada sucursal,
- y el total de unidades vendidas por producto en cada sucursal. Además, permite buscar un producto por su nombre y mostrar su precio y 
- cantidad en cada sucursal.
+y el total de unidades vendidas por producto en cada sucursal. Además, permite buscar un producto por su nombre y mostrar su precio y 
+cantidad en cada sucursal.
 */
 
 #include <stdio.h>
