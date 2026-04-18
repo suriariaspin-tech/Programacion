@@ -101,14 +101,14 @@ void BuscarProducto(char productos[3][10][50], float precios[3][10], int cantida
 void ValidarCantidad(int *cantidad) {
     while (scanf("%d", cantidad) != 1 || *cantidad < 0) { // BUCCLE para validar que la cantidad sea un entero y positivo
         printf("Valor invalido, no puede ingresar numeros negativos: ");
-        while (getchar() != '\n'); // Limpiar el buffer de entrada
+        LimpiarBuffer(); // Limpiar el buffer de entrada
     }
 }
 // función para validar que el precio ingresado sea un número flotante y positivo para precio
 void ValidarPrecio(float *precio) {
     while (scanf("%f", precio) != 1 || *precio < 0) { // BUCLE para validar que el precio sea un número flotante y positivo
         printf("Valor invalido, no puede ingresar numeros negativos: ");
-        while (getchar() != '\n'); // Limpiar el buffer de entrada
+        LimpiarBuffer(); // Limpiar el buffer de entrada
     }
 }
 // fucnión para leer que el texto ingresado y verificar que no sea vacío
